@@ -147,6 +147,8 @@ repositories {
 
 
 dependencies {
+    compile project(':react-native-gesture-handler')
+    compile project(':react-native-vector-icons')
 
     compile 'io.chirp.connect:chirp-connect-release@aar'
     compile 'com.squareup.okhttp3:okhttp:3.9.0'    
